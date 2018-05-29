@@ -35,8 +35,8 @@ const fetchData = async url => {
   }
 };
 
-const checkUserGroupExists = async (userPaths) => {
-  const results = await Promise.all(userIds.map(async userPath => {
+const checkUserGroupExists = async userPaths => {
+  const results = await Promise.all(userPaths.map(async userPath => {
     return await checkUserExists(userPath);
   }));
 
