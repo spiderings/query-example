@@ -1,1 +1,4 @@
-# query-example
+```
+yarn
+json-server users.json
+```

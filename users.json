@@ -1,0 +1,7 @@
+{
+  "users": [
+    { "id": 1, "username": "aaa", "admin": true, "status": "active"  },
+    { "id": 2, "username": "bbb", "admin": false, "status": "registerd" },
+    { "id": 3, "username": "ccc", "admin": true, "status": "verified"  }
+  ]
+}
